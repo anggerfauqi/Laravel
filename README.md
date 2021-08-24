@@ -63,11 +63,19 @@ composer require laravel/ui
 ```
 
 ```
-php artisan ui:controllers
+php artisan ui bootstrap --auth
 ```
 
 ```
-php artisan ui:auth
+npm install && npm run dev
+```
+if something's error, try to run one by one
+```
+npm install
+```
+then
+```
+npm run dev
 ```
 
 *if auth already exist, press **Y** all step to create new authentication*
